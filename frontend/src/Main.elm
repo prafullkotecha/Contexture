@@ -219,8 +219,7 @@ view model =
   in
     { title = "Contexture - Managing your Domains & Contexts"
     , body =
-      [ CDN.stylesheet
-      , div []
+      [ div []
         [ menu model
         , div [ Spacing.pt3 ]
           [ content ]
